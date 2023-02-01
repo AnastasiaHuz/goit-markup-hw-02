@@ -20,38 +20,39 @@
 
   <body>
     <!-- header container -->
-    <header>
-      <div class="header-design">
-        <nav>
-          <div class="logo">
-            <a href="./index.html"
-              ><span class="logo-primarypart">Web</span
-              ><span class="logo-secondarypart">Studio</span></a
+    <header class="header-design">
+      <nav>
+        <a class="logo link" href="./index.html"
+          >Web<span class="logo-secondarypart">Studio</span></a
+        >
+
+        <ul class="menu list">
+          <li class="menu-item">
+            <a class="link menu-link" href="">Studio</a>
+          </li>
+          <li class="menu-item">
+            <a class="link menu-link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="menu-item">
+            <a class="link menu-link" href="">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+
+      <address>
+        <ul class="list">
+          <li>
+            <a class="contacts-bar link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
             >
-          </div>
-
-          <ul class="navigation-bar">
-            <li><a href="">Studio</a></li>
-            <li><a href="./portfolio.html">Portfolio</a></li>
-            <li><a href="">Contacts</a></li>
-          </ul>
-        </nav>
-
-        <address>
-          <ul>
-            <li>
-              <a class="contacts-bar" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a class="contacts-bar" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
-      </div>
+          </li>
+          <li>
+            <a class="contacts-bar link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
     </header>
 
     <!-- navigation links -->
@@ -61,7 +62,7 @@
         <h1 class="hiden-header">Portfolio</h1>
         <!-- hide Portfolio h1-->
 
-        <ul>
+        <ul class="list">
           <li><button class="light-button" type="button">All</button></li>
           <li><button class="light-button" type="button">Web Site</button></li>
           <li><button class="light-button" type="button">App</button></li>
@@ -69,7 +70,7 @@
           <li><button class="light-button" type="button">Marketing</button></li>
         </ul>
 
-        <ul class="portfolio-examples">
+        <ul class="portfolio-examples list">
           <li>
             <img
               src="./potfoliopageimages/portfoliopicture1.jpg"
@@ -175,9 +176,8 @@
     <!-- footer container -->
 
     <footer class="footer">
-      <a class="logo" href="./index.html"
-        ><span class="flogo-primarypart">Web</span
-        ><span class="flogo-secondarypart">Studio</span></a
+      <a class="logo link" href="./index.html"
+        >Web<span class="flogo-secondarypart">Studio</span></a
       >
 
       <p>
